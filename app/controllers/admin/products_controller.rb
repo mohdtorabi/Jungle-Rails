@@ -1,7 +1,7 @@
 class Admin::ProductsController < ApplicationController
   
   http_basic_authenticate_with name: "yoyo", password: "secret", only: :show
-  
+  before_filter :authorize
   def index
     @products = Product.order(id: :desc).all
   end
