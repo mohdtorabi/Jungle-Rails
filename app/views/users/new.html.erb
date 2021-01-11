@@ -1,0 +1,43 @@
+<div class= "auth">
+<div>
+<h1>Login!</h1>
+
+<%= form_tag '/login' do %>
+  <div class="ohyeah">
+  <div class="ohyeah1">
+  Email: <%= text_field_tag :email %>
+  </div>
+  <div class="ohyeah1">
+  Password: <%= password_field_tag :password %>
+  </div>
+  <div class="ohyeah1">
+  <%= submit_tag "Submit" %>
+  </div>
+  
+<% end %>
+</div>
+</div>
+<div>
+<h1>Signup!</h1>
+<div class="ohyeah">
+<%= form_for :user, url: '/users' do |f| %>
+  <div class="ohyeah1">
+  Name: <%= f.text_field :name %>
+  </div>
+  <div class="ohyeah1">
+  Email: <%= f.text_field :email %>
+  </div>
+  <div class="ohyeah1">
+  Password: <%= f.password_field :password %>
+  </div>
+  <div class="ohyeah1">
+  Password Confirmation: <%= f.password_field :password_confirmation %>
+  </div>
+  <div class="ohyeah1">
+  <%= f.submit "Submit" %>
+  </div>
+  </div>
+<% end %>
+
+</div>
+</div>
