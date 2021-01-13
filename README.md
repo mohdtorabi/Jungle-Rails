@@ -4,7 +4,7 @@ A mini e-commerce application built with Rails 4.2 Using Stripe to order items a
 
 ## The Product
 
-![Brief of Jungle Website](https://github.com/rahulshial/Jungle/blob/master/docs/user_navigation.gif)
+![Brief of Jungle Website](https://github.com/mohdtorabi/Jungle-Rails/blob/master/Img/Jungle.gif)
 ## Setup
 
 1. Run `bundle install` to install dependencies
