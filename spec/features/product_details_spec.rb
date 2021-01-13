@@ -25,6 +25,6 @@ RSpec.feature "ProductDetails", type: :feature, js:true do
     # VERIFY
     first('article.product').find_link('Details').click
     sleep(5)
-    save_screenshot
+    # save_screenshot
   end
 end
