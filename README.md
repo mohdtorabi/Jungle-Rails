@@ -3,6 +3,7 @@
 A mini e-commerce application built with Rails 4.2 Using Stripe to order items and "make payments". Model and Feature testing is done with Rspec. Also using basic http authentication in ruby to secure the "admin" side the site. With successful login admins can create new catagories and products and save them to the database.
 
 ## The Product
+
 ![Brief of Jungle Website](https://github.com/rahulshial/Jungle/blob/master/docs/user_navigation.gif)
 ## Setup
 
