@@ -12,13 +12,14 @@ main section.categories-show {
       max-width: 260px;
       // so that footer within can be positioned absolutely
       position:  relative;
-
+      
       border:        1px solid #ccc;
       border-radius: 5px;
       padding:       15px;
       padding-bottom: 80px;
       margin-top:    20px;
       // margin:        10px;
+      background-color: #a8a9b3;
 
       header img {
         max-width: 100%;

@@ -4,11 +4,12 @@
 @import "font-awesome";
 
 // App
-@import "products";
+@import "products.scss";
 
 // Global
 body {
   padding-top: 70px;
+  background-color: #43444d;
 }
 
 // Bootstrap adjustments

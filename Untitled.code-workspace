@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "week9",
+			"path": ".."
+		},
+		{
+			"name": "dig-into-rspec",
+			"path": "../../dig-into-rspec"
+		}
+	],
+  "settings": {}
+}
